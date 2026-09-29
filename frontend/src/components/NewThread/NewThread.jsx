@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import './NewThread.css'
+import API_URL from '../../api'
 
 
 function NewThread(props) {
 
-    const url = 'http://localhost:3500/api/posts'
+    const url = `${API_URL}/api/posts`
 
     const getData = async () => {
 

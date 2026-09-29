@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './PostReplyComments.css'
+import API_URL from '../../api'
 
 function PostReplyComments({ postId, replies }) {
 
-    const url = `http://localhost:3500/api/replies/${postId}`
+    const url = `${API_URL}/api/replies/${postId}`
 
     const getData = async () => {
         try {

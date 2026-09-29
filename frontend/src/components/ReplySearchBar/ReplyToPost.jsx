@@ -1,8 +1,9 @@
 import React from 'react'
 import './ReplyToPost.css'
+import API_URL from '../../api'
 
 function ReplyToPost(props) {
-    const url = 'http://localhost:3500/api/replies/'
+    const url = `${API_URL}/api/replies/`
 
     function genId(posts) {
         let id

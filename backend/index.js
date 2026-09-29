@@ -16,7 +16,7 @@ app.use(e.json())
 app.use('/api/posts/', forumRoutes)
 app.use('/api/replies/', replyRoutes)
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     connectDB()
     console.log(`server runs on http://localhost:${PORT}`)
 })
