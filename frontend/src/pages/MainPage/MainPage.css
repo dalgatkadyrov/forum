@@ -1,0 +1,25 @@
+.main-mainPage{
+    background-color: #F4F1EA;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.postCombinator-mainPage{
+    flex: 2.3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightBlock-mainPage{
+    flex: 0.8;
+}
+
+.scrolable-mainPage{
+    height: 100%;
+    overflow: auto;
+}

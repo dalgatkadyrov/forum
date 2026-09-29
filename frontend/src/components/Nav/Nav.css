@@ -1,0 +1,48 @@
+.wholePart-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 40px;
+}
+
+.leftPart-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.leftPart-nav hr{
+    height: 20px;
+    color: lightgray;
+}
+
+.leftPart-nav div a{
+    margin: 20px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1rem;
+}
+
+.leftPart-nav div a:nth-of-type(1){
+    background-color: #E6F0FF;
+    color: #0066CC;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.rightPart-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.rightPart-nav hr{
+    height: 20px;
+    color: lightgray;
+}
+
+.rightPart-nav a{
+    color: #0066CC;
+}

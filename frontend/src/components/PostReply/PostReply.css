@@ -1,0 +1,139 @@
+
+.postCombinator-replies{
+    padding: 20px;
+}
+
+.postBody-replies {
+    width: 100%;
+    padding: 20px;
+    background-color: #FAF9F5;
+    border: 1px solid #D5D0C0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.postTopPart-replies {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.postTopPart-replies div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.postTopReplies-replies{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    background-color: #E6F0FF;
+    color: #0066CC;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.postTopReplies-replies::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+
+    background-image: url('../../assets/icons/message-icon.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.postTopStatus-replies{
+    color: #2E7D32;
+}
+
+.postTopPostNum-replies{
+    color: #0066CC;
+    text-decoration: underline;
+}
+
+.postTopFiles-replies{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #F4F1EA;
+    color: #666660;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.postTopFiles-replies::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+
+    background-image: url('../../assets//icons//miniPic.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.postBottomPart-replies {
+    display: flex;
+    gap: 20px;
+}
+
+.postImgHolder-replies {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #666660;
+}
+
+.postImgHolder-replies img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.postImgHolder-replies p{
+    width: fit-content;
+}
+
+.postImgHolder-replies div{
+    display: flex;
+    gap: 10px;
+}
+
+
+.postDescription-replies {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 20px;
+}
+
+.postDescription-replies a{
+    color: #0066CC;
+}
+
+
+.postDescription-replies p:nth-of-type(1) {
+    width: 100%;
+    height: fit-content;
+    
+}
+
+
+.postDescription-replies p:nth-of-type(2){
+    color: #666660;
+}
+
+.back-replies{
+    display: flex;
+    gap: 10px;
+    color: #666660;
+    margin-bottom: 10px;
+}
+
+.back-replies a{
+    color: #0066CC;
+}
